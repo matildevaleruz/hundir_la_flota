@@ -115,6 +115,7 @@ class Jugador:
         - 3 barcos de 2
         """
         self.mapa = Tablero()
+        self.puntos_vida = 0
 
         longitudes_barcos = [2, 2]  # [pequeño, pequeño]
 
